@@ -24,13 +24,14 @@ transaction RegisterPropertyForTransfer {
 }
 
 transaction TransferProperty {
-  --> Member owner
   --> Member newOwner
   --> Property property
 }
 
 event TransferEvent {
   --> Property property
+  --> Member oldOwner
+  --> Member newOwner
 }
 
 transaction SetupDemo {

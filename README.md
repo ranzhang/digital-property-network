@@ -7,4 +7,3 @@ There are some basic checks implemented:
 - Only the asset owner can register the asset for transfer 
 - Only participants can issue or receive a transfer 
 - Only the asset owner can transfer the ownership. 
-
