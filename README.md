@@ -1,7 +1,7 @@
 # Digital Property Network
 **by Randy Zhang**
 
-This is a blockchain-based network for digital property using Hyperledger Composer. Use the setDemo function to setup the demo resources. Users can register the property for transfer and transfer the ownership to another user. Events are generated for property transfer. 
+This is a blockchain-based network for digital property using Hyperledger Composer. Use the setupDemo function to instantiate the demo resources. Users can register the property for transfer and transfer the ownership to another user. Events are generated for property transfer. 
 
 There are some basic checks implemented: 
 - Only the asset owner can register the asset for transfer 
