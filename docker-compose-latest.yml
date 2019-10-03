@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  composer-playground:
+    image: hyperledger/composer-playground:latest
+    ports:
+      - 8080:8080 
